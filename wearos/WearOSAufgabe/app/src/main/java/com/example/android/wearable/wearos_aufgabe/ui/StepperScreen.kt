@@ -1,7 +1,5 @@
 package com.example.android.wearable.wearos_aufgabe.ui
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.*
@@ -14,14 +12,7 @@ import com.example.android.wearable.wearos_aufgabe.viewmodels.SharedViewModel
 fun StepperScreen(
     viewModel: SharedViewModel
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(top = 10.dp),
-        verticalArrangement = Arrangement.Center
-    ) {
-        val amount by remember { viewModel.getAmount() }
+    val amount by remember { viewModel.getAmount() }
 
-        //TODO Implement the Stepper
-    }
+    //TODO Implement the Stepper
 }
