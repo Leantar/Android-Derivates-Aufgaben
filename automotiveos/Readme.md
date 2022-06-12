@@ -19,14 +19,22 @@ unrelevant sind.
 ![ExtendedControls](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Extended_Controls.png)
 ![CarData](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Car_Data.png)
 
+APP INFO: Permissions werden nur beim Tippen auf dem Grant Permissions Menüpunkt abgefragt und erlaubt. 
+
 ## Laboraufgabe Automotive OS
 
-**3.1** Starten Sie die App und korrigieren Sie den Fehler.
+**3.1** Starten Sie die App und tippen Sie anschließend auf den Menüpunkt Show Current Speed. Korrigieren Sie den Fehler. 
+Verändern Sie nach der Korrigierung des Fehlers die Geschwindigkeit und lassen Sie sich diese in der App anzeigen.
 
-**3.2** Die App ist von UX-Beschränkungen betroffen, heben Sie diese Beschränkungen auf. 
-INFO: Leider lässt sich dies nicht verifizieren. Schauen Sie hierfür in den Vorlesungsfolien unter Fahrerablenkung nach.
 
-**2.3** Erweitern Sie die App um einen zusätzlichen Screen, welcher die Modellinformationen des Fahrzeuges anzeigt. 
+**3.2** Legen Sie den Gang "D" (Drive) ein. Was ist passiert? 
+Heben Sie die Beschränkungen auf.
+INFO: Leider lässt sich die Aufgabe mit dem Polestar2 Emulator nicht verifizieren.
+TIPP: Schauen Sie, wenn notwendig, in den Vorlesungsfolien unter Fahrerablenkung nach.
+
+**3.3** Erweitern Sie die App um einen zusätzlichen Screen, welcher die Modellinformationen des Fahrzeuges anzeigt. 
 Dabei sollte der Hersteller, der Modellname und das Baujahr in unterschiedlichen Reihen auf dem Screen angezeigt werden. 
-TIPP: Das Objekt, welches die Modellinformationen enthält, ist unter androidx.car.app.hardware.info.Model zu finden.
+
+TIPPS: Kopieren Sie den SpeedScreen und passen Sie den neu erstellten Screen an. Anschließend muss der Screen im MainScreen zum ScreenManager hinzugefügt werden.
+Das Objekt, welches die Modellinformationen enthält, ist unter androidx.car.app.hardware.info.Model zu finden.
 Verwenden Sie die Methode androidx.car.app.hardware.info.CarInfo.fetchModel, um das Model Objekt von der API zu erhalten.
