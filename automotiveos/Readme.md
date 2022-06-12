@@ -28,13 +28,13 @@ Verändern Sie nach der Korrigierung des Fehlers die Geschwindigkeit und lassen 
 
 
 **3.2** Legen Sie den Gang "D" (Drive) ein. Was ist passiert? 
-Heben Sie die Beschränkungen auf.
-INFO: Leider lässt sich die Aufgabe mit dem Polestar2 Emulator nicht verifizieren.
+Heben Sie die Beschränkungen auf. <br />
+INFO: Leider lässt sich die Aufgabe mit dem Polestar2 Emulator nicht verifizieren. <br />
 TIPP: Schauen Sie, wenn notwendig, in den Vorlesungsfolien unter Fahrerablenkung nach.
 
 **3.3** Erweitern Sie die App um einen zusätzlichen Screen, welcher die Modellinformationen des Fahrzeuges anzeigt. 
 Dabei sollte der Hersteller, der Modellname und das Baujahr in unterschiedlichen Reihen auf dem Screen angezeigt werden. 
 
-TIPPS: Kopieren Sie den SpeedScreen und passen Sie den neu erstellten Screen an. Anschließend muss der Screen im MainScreen zum ScreenManager hinzugefügt werden.
+TIPPS: Kopieren Sie den SpeedScreen und passen Sie die Kopie an. Anschließend muss der Screen im MainScreen zum ScreenManager hinzugefügt werden.
 Das Objekt, welches die Modellinformationen enthält, ist unter androidx.car.app.hardware.info.Model zu finden.
 Verwenden Sie die Methode androidx.car.app.hardware.info.CarInfo.fetchModel, um das Model Objekt von der API zu erhalten.
