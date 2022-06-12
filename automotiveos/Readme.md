@@ -13,15 +13,18 @@ bash ~/Desktop/android-studio/bin/studio.sh
 **2.2** Wenn der Emulator hochgefahren ist, starten Sie die erstellte App, indem Sie zuerst in der oberen Navigationszeile
 auf das Fenster klicken (zweites Symbol von rechts) und anschließend ihre App auswählen.
 ![Polestar](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Polestar_Screen.png)
+<br />
 **2.3** Mit dem Polestar 2 Emulator lassen sich die Sensordaten im Menü "Extendend Controls" unter dem Menüpunkt
 "Car data" beeinflussen (Siehe Bilder). Weitere Sensoren sind unter dem Menüpunkt "Virtual sensors" zu finden, welche jedoch für diese Laboraufgabe 
 unrelevant sind.
+<br />
 ![ExtendedControls](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Extended_Controls.png)
 ![CarData](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Car_Data.png)
 
-APP INFO: Permissions werden nur beim Tippen auf dem Grant Permissions Menüpunkt abgefragt und erlaubt. 
 
 ## Laboraufgabe Automotive OS
+
+APP INFO: Permissions werden nur beim Tippen auf dem Grant Permissions Menüpunkt abgefragt und erlaubt. 
 
 **3.1** Starten Sie die App und tippen Sie anschließend auf den Menüpunkt Show Current Speed. Korrigieren Sie den Fehler. 
 Verändern Sie nach der Korrigierung des Fehlers die Geschwindigkeit und lassen Sie sich diese in der App anzeigen.
