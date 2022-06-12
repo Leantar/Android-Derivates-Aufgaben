@@ -26,8 +26,8 @@ unrelevant sind.
 
 APP INFO: Permissions werden nur beim Tippen auf dem Grant Permissions Menüpunkt abgefragt und erlaubt. 
 
-**3.1** Starten Sie die App und tippen Sie anschließend auf den Menüpunkt Show Current Speed. Korrigieren Sie den Fehler. 
-Verändern Sie nach der Korrigierung des Fehlers die Geschwindigkeit und lassen Sie sich diese in der App anzeigen.
+**3.1** Starten Sie die App und tippen Sie anschließend auf den Menüpunkt Show Current Speed. In der Konsole ist eine Fehlermeldung zu sehen,
+korrigieren Sie den Fehler. Verändern Sie nach der Korrigierung des Fehlers die Geschwindigkeit und lassen Sie sich diese in der App anzeigen.
 
 
 **3.2** Legen Sie den Gang "D" (Drive) ein. Was ist passiert? 
