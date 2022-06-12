@@ -1,13 +1,16 @@
 # Automotive OS Aufgabe
 ## Einrichtung ohne VM (Android Studio Version > 4.2 erforderlich) 
-**1.1.1** Navigieren Sie in Android Studio auf den SDK Manager: Tools > SDK Manager
-**1.1.2** Wählen Sie den Tab "SDK Update Sites" aus und klicken Sie auf das "+"-Symbol
+**1.1.1** Navigieren Sie in Android Studio auf den SDK Manager: Tools > SDK Manager  <br />
+**1.1.2** Wählen Sie den Tab "SDK Update Sites" aus und klicken Sie auf das "+"-Symbol  <br />
 **1.1.3** Geben Sie im neu geöffnetem Fenster als Name "Polestar 2 Sys Image" ein und als
-URL https://developer.polestar.com/sdk/polestar2-sys-img.xml
-**1.1.4** Wechseln sie nun zum Tab "SDK Platforms" und setzen Sie unten rechts einen Haken bei "Show Package Details".
-**1.1.5** Setzen Sie unter Android 10.0 (Q) bei Polestar 2 einen Haken und drücken Sie anschließend zwei Mal auf "OK".
-**1.1.6** Akzeptieren Sie die Lizensen und warten Sie bis das Image geladen ist.
-**1.1.7** 
+URL https://developer.polestar.com/sdk/polestar2-sys-img.xml  <br />
+**1.1.4** Wechseln sie nun zum Tab "SDK Platforms" und setzen Sie unten rechts einen Haken bei "Show Package Details".  <br />
+**1.1.5** Setzen Sie unter Android 10.0 (Q) bei Polestar 2 einen Haken und drücken Sie anschließend zwei Mal auf "OK".  <br />
+**1.1.6** Akzeptieren Sie die Lizensen und warten Sie bis das Image geladen ist.  <br />
+**1.1.7** Starten Sie Android Studio neu und Kreieren Sie nun ein neues Gerät im Device Manager. 
+**1.1.8** Wählen Sie hierbei als Kategorie "Automotive" und als Gerät "Polestar 2" aus. Drücken Sie nun auf "Next".
+**1.1.9** Wechseln Sie zum Tab "x86 Images", wählen Sie als System Image "Q" mit dem API Level 29 aus und drücken sie wieder auf "Next". 
+**1.1.10** Schließen Sie nun den Prozess mit den vorhandenen Einstellungen ab.
 
 
 ## VM Einrichtung 
