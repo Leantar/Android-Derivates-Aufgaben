@@ -7,7 +7,7 @@ URL https://developer.polestar.com/sdk/polestar2-sys-img.xml  <br />
 
 ![SysImg](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/sysimg.PNG)
 
-**1.1.4** Wechseln sie nun zum Tab "SDK Platforms" und setzen Sie unten rechts einen Haken bei "Show Package Details".  <br />
+**1.1.4** Wechseln Sie nun zum Tab "SDK Platforms" und setzen Sie unten rechts einen Haken bei "Show Package Details".  <br />
 **1.1.5** Setzen Sie unter Android 10.0 (Q) bei Polestar 2 einen Haken und drücken Sie anschließend zwei Mal auf "OK".  <br />
 
 ![SDKManager](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/manager.PNG)
