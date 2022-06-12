@@ -1,6 +1,10 @@
 # Automotive OS Aufgabe
 ## Einrichtung 
-**1.1** Navigieren Sie auf die  Master-Festplatte unter /VM/ \
+**1.1** Öffnen Sie das MATE Terminal und führen Sie folgendes Kommando aus um Android Studio zu öffnen
+```bash
+bash ~/Desktop/android-studio/bin/studio.sh
+```
+**1.2** Sollte sich das Projekt nicht automatisch öffnen, dann ist dies unter ~/Desktop/Automotive zu finden.
 
 ## Emulator Einführung
 
