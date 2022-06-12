@@ -40,11 +40,11 @@ bash ~/Desktop/android-studio/bin/studio.sh
 auf das Fenster klicken (zweites Symbol von rechts) und anschließend ihre App auswählen.
 ![Polestar](https://raw.githubusercontent.com/Leantar/Android-Derivates-Aufgaben/main/img/Polestar_Screen.png)
 <br />
-**2.3** Beim initialen Start der App werden sei aufgefordert nach Updates zu suchen. Betätigen Sie diesen Button und melden Sie sich
+**2.3** Beim initialen Start der App werden Sie aufgefordert nach Updates zu suchen. Betätigen Sie diesen Button und melden Sie sich
 entweder mit ihrem Google-Account an oder mit dem bereitgestellten Account <br />
 Email: mobileengineeringlab@gmail.com Passwort: mobileengineering10  <br />
-**2.4** Akzeptieren Sie die Lizenz und Updaten Sie "Google Automotive App Host". Wenn Sie auf der Startseite des PlayStore landen,
-dann öffnen sie wieder die App "Labor" und suchen Sie nach Updates.
+**2.4** Akzeptieren Sie die Lizenz und Updaten Sie die App "Google Automotive App Host". Wenn Sie auf der Startseite des PlayStore gelandet sind,
+dann öffnen sie wieder die App "Labor" und suchen Sie nach Updates, um direkt auf der App "Google Automotive App Host" zu landen.
 
 **2.5** Mit dem Polestar 2 Emulator lassen sich die Sensordaten im Menü "Extendend Controls" unter dem Menüpunkt
 "Car data" beeinflussen (Siehe Bilder). Weitere Sensoren sind unter dem Menüpunkt "Virtual sensors" zu finden, welche jedoch für diese Laboraufgabe 
