@@ -1,10 +1,21 @@
 # Automotive OS Aufgabe
-## Einrichtung 
-**1.1** Öffnen Sie das MATE Terminal und führen Sie folgendes Kommando aus um Android Studio zu öffnen
+## Einrichtung ohne VM (Android Studio Version > 4.2 erforderlich) 
+**1.1.1** Navigieren Sie in Android Studio auf den SDK Manager: Tools > SDK Manager
+**1.1.2** Wählen Sie den Tab "SDK Update Sites" aus und klicken Sie auf das "+"-Symbol
+**1.1.3** Geben Sie im neu geöffnetem Fenster als Name "Polestar 2 Sys Image" ein und als
+URL https://developer.polestar.com/sdk/polestar2-sys-img.xml
+**1.1.4** Wechseln sie nun zum Tab "SDK Platforms" und setzen Sie unten rechts einen Haken bei "Show Package Details".
+**1.1.5** Setzen Sie unter Android 10.0 (Q) bei Polestar 2 einen Haken und drücken Sie anschließend zwei Mal auf "OK".
+**1.1.6** Akzeptieren Sie die Lizensen und warten Sie bis das Image geladen ist.
+**1.1.7** 
+
+
+## VM Einrichtung 
+**1.2.1** Öffnen Sie das MATE Terminal und führen Sie folgendes Kommando aus um Android Studio zu öffnen
 ```bash
 bash ~/Desktop/android-studio/bin/studio.sh
 ```
-**1.2** Sollte sich das Projekt nicht automatisch öffnen, dann ist dies unter ~/Desktop/Automotive zu finden.
+**1.2.2** Sollte sich das Projekt nicht automatisch öffnen, dann ist dies unter ~/Desktop/Automotive zu finden.
 
 ## Emulator Einführung
 
