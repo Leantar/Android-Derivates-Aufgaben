@@ -9,6 +9,7 @@ import androidx.navigation.NavHostController
 import androidx.wear.compose.material.*
 import com.example.android.wearable.wearos_aufgabe.viewmodels.SharedViewModel
 import java.time.format.DateTimeFormatter
+import java.util.*
 
 @Composable
 fun LandingScreen(
@@ -32,7 +33,7 @@ fun LandingScreen(
         item {
             Text(
                 modifier = Modifier.fillMaxWidth(),
-                text = "Total amount: ${viewModel.getAllWaterIntakeData().sumOf {it.amount }} ml",
+                text = "Total amount: ${viewModel.getAllWaterIntakeData().sumOf {it.amount}} ml",
                 color = MaterialTheme.colors.primary,
                 textAlign = TextAlign.Center
             )
@@ -64,11 +65,11 @@ fun LandingScreen(
                         )
                     },
                     secondaryLabel = {
-                        val formatter = DateTimeFormatter.ofPattern("hh:mm")
+                        val formatter = DateTimeFormatter.ofPattern("HH:mm")
                         Text(
                             modifier = Modifier.fillMaxWidth(),
                             color = MaterialTheme.colors.onPrimary,
-                            text = "Time: ${it.dateTime.toLocalTime().format(formatter)}",
+                            text = "Time: ${it.time.format(formatter)}",
                             textAlign = TextAlign.Center
                         )
                     },

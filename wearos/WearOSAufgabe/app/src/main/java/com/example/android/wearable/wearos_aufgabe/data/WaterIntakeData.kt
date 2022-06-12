@@ -1,8 +1,8 @@
 package com.example.android.wearable.wearos_aufgabe.data
 
-import java.time.LocalDateTime
+import java.time.LocalTime
 
 data class WaterIntakeData(
     val amount: Int,
-    val dateTime: LocalDateTime
+    val time: LocalTime
 )

@@ -11,6 +11,7 @@ import androidx.wear.compose.material.*
 import com.example.android.wearable.wearos_aufgabe.data.WaterIntakeData
 import com.example.android.wearable.wearos_aufgabe.viewmodels.SharedViewModel
 import java.time.format.DateTimeFormatter
+import java.util.*
 
 @Composable
 fun AddScreen(
@@ -61,10 +62,10 @@ fun AddScreen(
                 },
                 secondaryLabel = {
                     val formatter =
-                        remember { DateTimeFormatter.ofPattern("hh:mm") }
+                        remember { DateTimeFormatter.ofPattern("HH:mm") }
                     Text(
                         modifier = Modifier.fillMaxWidth(),
-                        text = viewModel.getTime().value.toLocalTime().format(formatter),
+                        text = viewModel.getTime().value.format(formatter),
                         color = MaterialTheme.colors.onPrimary,
                         textAlign = TextAlign.Center
                     )

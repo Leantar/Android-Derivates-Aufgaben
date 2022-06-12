@@ -90,7 +90,7 @@ fun WearApp(navController: NavHostController) {
                 composable("TimePicker") {
                     TimePicker(
                         onTimeConfirm = {
-                            vm.setTime(it.atDate(vm.getTime().value.toLocalDate()))
+                            vm.setTime(it)
                             navController.popBackStack()
                         }
                     )
