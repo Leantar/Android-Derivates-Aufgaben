@@ -15,4 +15,17 @@ fun StepperScreen(
     val amount by remember { viewModel.getAmount() }
 
     //TODO Implement the Stepper
+    Stepper(
+        value = amount,
+        onValueChange = {
+            viewModel.setAmount(it)
+        },
+        valueProgression = 50..2000 step 50,
+        increaseIcon = { Icon(StepperDefaults.Increase, "Increase") },
+        decreaseIcon = { Icon(StepperDefaults.Decrease, "Decrease") },
+        modifier = Modifier.fillMaxSize()
+            .padding(top = 10.dp),
+    ) {
+        Text("Value: $amount")
+    }
 }

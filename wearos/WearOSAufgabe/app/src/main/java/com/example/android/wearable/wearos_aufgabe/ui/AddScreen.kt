@@ -46,6 +46,7 @@ fun AddScreen(
                 },
                 onClick = {
                     //TODO Navigate to Stepper Screen
+                    navController.navigate("Stepper")
                 }
             )
         }
