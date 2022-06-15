@@ -1,0 +1,5 @@
+<resources>
+    <color name="gray">#9996a6</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="selected_background">#ff00ff</color>
+</resources>
